@@ -17,7 +17,8 @@ const forecast = (latitude, longitude, callback) => {
                 current.temperature + 
                 ' degrees out. It feels like ' + 
                 current.feelslike + 
-                ' degrees out.')
+                ' degrees out.' +
+                ' There is a ' + current.wind_speed + 'mph breeze.')
         }
     })
 }
